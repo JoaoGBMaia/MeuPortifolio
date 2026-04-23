@@ -390,6 +390,17 @@ h1.hero-title em {
   transition: transform 0.5s ease;
 }
 
+.project-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-thumb-photo {
+  background: #d9d0c2;
+}
+
 .project-card:hover .project-thumb {
   transform: scale(1.03);
 }
