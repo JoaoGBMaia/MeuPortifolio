@@ -2,6 +2,12 @@
 
 Esse repositório contém meu portfólio pessoal, desenvolvido do zero com HTML, CSS e JavaScript puro. Criei ele para apresentar meu trabalho, minhas habilidades e facilitar o contato com quem quiser colaborar ou contratar.
 
+## Site publicado
+
+Quando o GitHub Pages estiver ativo, o portfólio ficará disponível em:
+
+https://joaogbmaia.github.io/MeuPortifolio/
+
 ## Sobre o projeto
 
 É uma landing page simples, rápida e responsiva — sem frameworks, sem dependências, sem complicação. O foco foi em entregar uma experiência limpa e bem construída, com atenção aos detalhes de design e performance.
@@ -12,6 +18,7 @@ Esse repositório contém meu portfólio pessoal, desenvolvido do zero com HTML,
 - Seção sobre mim com minha trajetória
 - Skills com barras de progresso animadas
 - Projetos selecionados com hover interativo
+- Link para o Aplicativo de Finanças publicado no GitHub Pages
 - Seção de contato com links diretos
 
 ## Tecnologias utilizadas
@@ -23,24 +30,9 @@ Esse repositório contém meu portfólio pessoal, desenvolvido do zero com HTML,
 
 ## Como rodar localmente
 
-```bash
-git clone https://github.com/joaogabrielmaia/portfolio.git
-```
-
-Depois é só abrir o `index.html` no navegador. Não precisa instalar nada.
-
-## Estrutura de arquivos
-
-```
-portfolio/
-├── index.html   # Estrutura e conteúdo
-├── style.css    # Estilos e responsividade
-└── script.js    # Animações e interações
-```
+Abra `index.html` no navegador. Não precisa instalar nada.
 
 ## Contato
-
-Se quiser trocar uma ideia ou tiver alguma oportunidade, me chama:
 
 - Email: joaogabrielmaia.ti@gmail.com
 - LinkedIn: https://www.linkedin.com/in/joao-gabriel-maia-6646ba320/
