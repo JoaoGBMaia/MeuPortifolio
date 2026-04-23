@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de João Gabriel Maia — Desenvolvedor Web" />
+  <title>Portfólio — João Gabriel Maia</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <div class="nav-logo">João Gabriel Maia</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-tag">Desenvolvedor Web</div>
+
+    <h1 class="hero-title">
+      Criando<br />
+      experiências <em>digitais</em><br />
+      que importam.
+    </h1>
+
+    <p class="hero-desc">
+      Transformo ideias em interfaces funcionais e elegantes.
+      Foco em código limpo, performance e experiência do usuário.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projetos" class="btn-primary">Ver projetos</a>
+      <a href="#contato" class="btn-ghost">Fale comigo</a>
+    </div>
+
+    <div class="hero-number">01</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="sobre">
+    <div class="about-img-wrap reveal">
+      <div class="about-img-placeholder">👨‍💻</div>
+      <div class="about-badge">
+        <strong>3+</strong>
+        Anos de<br />experiência
+      </div>
+    </div>
+
+    <div class="about-content">
+      <div class="section-label reveal">Sobre mim</div>
+
+      <h2 class="section-title reveal">
+        Apaixonado por código<br />
+        <em>e design.</em>
+      </h2>
+
+      <p class="about-text reveal">
+        Sou desenvolvedor web focado em construir produtos digitais de alta qualidade.
+        Trabalho com tecnologias modernas para entregar soluções robustas e escaláveis.
+      </p>
+
+      <p class="about-text reveal">
+        Acredito que um bom produto nasce da interseção entre código limpo,
+        design intuitivo e atenção ao detalhe.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <div id="skills">
+    <div class="inner">
+      <div class="section-label reveal">Especialidades</div>
+      <h2 class="section-title reveal">O que eu faço</h2>
+
+      <div class="skills-grid reveal">
+        <div class="skill-item">
+          <div class="skill-icon">⚡</div>
+          <div class="skill-name">Frontend</div>
+          <div class="skill-list">HTML5 · CSS · JavaScript</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="92%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">Backend</div>
+          <div class="skill-list">CyberSecurity</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🗄️</div>
+          <div class="skill-name">Banco de Dados</div>
+          <div class="skill-list">Em aprendizado</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">☁️</div>
+          <div class="skill-name">DevOps & Cloud</div>
+          <div class="skill-list">Vercel</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="68%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">📐</div>
+          <div class="skill-name">UI/UX</div>
+          <div class="skill-list">Figma · Design Systems · Acessibilidade</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="72%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon">🧪</div>
+          <div class="skill-name">Testes</div>
+          <div class="skill-list">Em aprendizado</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" style="width: 0%" data-width="65%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="projetos">
+    <div class="projects-header">
+      <div>
+        <div class="section-label reveal">Trabalhos recentes</div>
+        <h2 class="section-title reveal">Projetos selecionados</h2>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+      <a
+        class="project-card reveal"
+        href="https://joaogbmaia.github.io/aplicativo-de-finan-as/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Abrir o Aplicativo de Finanças"
+      >
+        <div class="project-thumb" style="background: #EEE9E1;">
+          💸
+          <div class="project-overlay"><span>Ver projeto →</span></div>
+        </div>
+        <div class="project-info">
+          <div class="project-tag">Finanças · HTML · CSS · JavaScript</div>
+          <div class="project-name">Aplicativo de Finanças</div>
+          <p class="project-desc">
+            App responsivo para registrar receitas e despesas,
+            acompanhar saldo e analisar gastos por categoria.
+          </p>
+        </div>
+      </a>
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background: #E8EEF2;">
+          📊
+          <div class="project-overlay"><span>Ver projeto →</span></div>
+        </div>
+        <div class="project-info">
+          <div class="project-tag">Dashboard · Next.js · PostgreSQL</div>
+          <div class="project-name">Analytics Dashboard</div>
+          <p class="project-desc">
+            Painel de análise de dados com visualizações interativas,
+            filtros avançados e exportação de relatórios.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background: #EEE8EE;">
+          💬
+          <div class="project-overlay"><span>Ver projeto →</span></div>
+        </div>
+        <div class="project-info">
+          <div class="project-tag">SaaS · WebSocket · MongoDB</div>
+          <div class="project-name">App de Colaboração</div>
+          <p class="project-desc">
+            Ferramenta de colaboração em tempo real com chat,
+            comentários e gestão de tarefas integrada.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background: #E8EEE8;">
+          🌍
+          <div class="project-overlay"><span>Ver projeto →</span></div>
+        </div>
+        <div class="project-info">
+          <div class="project-tag">Landing Page · Animações · SEO</div>
+          <div class="project-name">Site Institucional</div>
+          <p class="project-desc">
+            Site institucional com animações sofisticadas,
+            alta performance e pontuação 100 no Lighthouse.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="contato">
+    <p class="section-label reveal" style="justify-content: center;">Vamos conversar</p>
+
+    <h2 class="contact-big reveal">
+      Tem um projeto<br /><em>em mente?</em>
+    </h2>
+
+    <p class="contact-sub reveal">
+      Estou disponível para projetos freelance e oportunidades full-time.
+    </p>
+
+    <div class="contact-links reveal">
+      <a href="mailto:joaogabrielmaia.ti@gmail.com" class="contact-link">✉ joaogabrielmaia.ti@gmail.com</a>
+      <a href="#" class="contact-link">💼 LinkedIn</a>
+      <a href="#" class="contact-link">🐙 GitHub</a>
+      <a href="#" class="contact-link">📄 Currículo</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 João Gabriel Maia</span>
+    <span>Desenvolvido com cuidado ✦</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
